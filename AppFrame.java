@@ -20,7 +20,7 @@ public class AppFrame extends JFrame {
         this.setSize(400, 700);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
-
+        this.setResizable(false);
         titleBar = new TitleBar();
         list = new List();
         buttonPanel = new ButtonPanel();
